@@ -1,3 +1,29 @@
+# Данные и материалы курса
 data/
 seminars/
 lectures/
+
+# Окружения и кеши
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Архивы, массивы и сохранённые модели
+*.gz
+*.zip
+*.tar
+*.7z
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# macOS
+.DS_Store
